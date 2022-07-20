@@ -9,7 +9,7 @@ try:
     browser.get(link)
     elements = browser.find_elements(By.TAG_NAME, "input")
     for element in elements:
-        element.send_keys("Мой ответ")
+        element.send_keys("Всего хорошего и спасибо за рыбу!")
 
     button = browser.find_element(By.CSS_SELECTOR, "button.btn")
     button.click()
